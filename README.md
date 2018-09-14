@@ -3,6 +3,7 @@ Capacitación: Git, bash y docker
 Integrantes:
 - Claudia Valdivieso
 - Carmen Gómez
+- Pedro Vega
 
 1. ¿Qué es y para qué sirve GIT?
 - Es un sistema de control de versiones.
