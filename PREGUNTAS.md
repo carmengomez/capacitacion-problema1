@@ -87,3 +87,15 @@ kernel.
 
 9. ¿Qué para si creo una imagen sin especificar una versión o tag, con qué versión se crea?
 - No se realizan los cambios y se crearía con la última versión que contenga tag.
+
+## PASO 5
+1a. ¿Para qué es necesario crear un contenedor con esta bandera `-it`?¿Qué pasa si no le pongo `-it`?
+- Para que se active el modo interactivo y la consola TTY del contenedor para que permita ingresar cualquier comando. Si no le 
+coloca no permitirá realizar lo mencionado anteriormente
+
+1b. ¿Pára qué sirve el comando `bash` al ejecutar una imagen? 
+- Para que se pueda levantar el interprete del comando bash y ejecutar comandos dentro de tu contenedor, ya sea con el modo 
+interactivo o sin este 
+
+2. ¿Cuál es la diferencia entre `docker ps` y `docker ps -a`?
+- `docker ps`muestra los contenedores activos y `docker ps -a` muestra todos los contenedores activos e inactivos
