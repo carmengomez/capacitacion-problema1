@@ -53,3 +53,37 @@ Integrantes:
 - `git rebase`: Sirve para pasar los cambios de una rama (base) hacia la rama actual y poner los cambios de la rama actual sobre estos.
 - `git merge`: Sirve para fusionar los cambios entre ramas.
 - `git branch`: Sirve para administrar las ramas.
+
+
+** CAPACITACIÓN DOCKER
+
+## PASO 4
+
+1. ¿Qué importancia tiene los tags en un proyecto?
+- Es importante agregar los tags en un proycto porque ayuda a identificar los cambios que se realizan.
+
+2. ¿Cuál es la diferencia entre un tag normal y un tag anotado en git?
+- La diferencia es que un tag anotado tiene un mensaje que se puede mostrar, mientras que un tag normal es una etiqueta sin 
+anotaciones es solo un puntero con nombre a una confirmación.
+
+3. ¿Cómo se sube todos ls tags de git que hay en mi local?
+- Con el comando `git push --tags`
+
+4. ¿Es necesario loguearse cada vez que subo una imagen a dockerhub?
+- Si es necesario.
+
+5. ¿Qué es y para qué sirve docker?
+- Docker es una plataforma que sirve para desarrollar, implementar y ejecutar aplocaciones dentro de contenedores
+
+6. ¿Cuál es la diferencia entre docker y VirtualBox?
+- VirtualBox trabaja sobre el hadware e interactual con el Hypervisor, mientras que, Docker trabaja sobre el software y el 
+kernel
+
+7. ¿Es necesario depender de una imagen de docker base al crear una imagen nueva?
+- Si
+
+8. ¿Por qué debo anteponer el nombre del usuario en una imagen docker nueva?
+- Es un mecanismo que usan los registros para dar una versión a las imágenes de Docker
+
+9. ¿Qué para si creo una imagen sin especificar una versión o tag, con qué versión se crea?
+- No se realizan los cambios y se crearía con la última versión que contenga tag.
