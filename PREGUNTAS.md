@@ -99,3 +99,7 @@ interactivo o sin este
 
 2. ¿Cuál es la diferencia entre `docker ps` y `docker ps -a`?
 - `docker ps`muestra los contenedores activos y `docker ps -a` muestra todos los contenedores activos e inactivos
+
+## PASO 5
+
+8. docker run carmengomez/orbis-training-docker:0.2.0
