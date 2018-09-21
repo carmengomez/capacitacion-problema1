@@ -62,8 +62,7 @@ Integrantes:
 1. ¿Qué importancia tiene los tags en un proyecto?
 - Es importante agregar los tags en un proycto porque ayuda a identificar los cambios que se realizan.
 
-2. ¿Cuál es la diferencia entre un tag normal y un tag anotado en git?
-- La diferencia es que un tag anotado tiene un mensaje que se puede mostrar, mientras que un tag normal es una etiqueta sin 
+2. ¿Cuál es la diferencia entre un tag normal y un tag anotado en git?- La diferencia es que un tag anotado tiene un mensaje que se puede mostrar, mientras que un tag normal es una etiqueta sin 
 anotaciones es solo un puntero con nombre a una confirmación.
 
 3. ¿Cómo se sube todos ls tags de git que hay en mi local?
@@ -103,3 +102,29 @@ interactivo o sin este
 ## PASO 5
 
 8. docker run carmengomez/orbis-training-docker:0.2.0
+
+9a. ¿Cuál es la diferencia entre una imagen y un contenedor?
+- Una imagen es una plantilla o receta de Docker, mientras que un contenedor es una imagen corriendo.
+
+9b. ¿Cómo listo las imágenes que hay en mi computadora?
+- Con el comando `docker images`
+
+9c.¿Cómo salgo de un contenedor de docker?
+- Con el comando `exit`
+
+9d. ¿Se elimina el contenedor al salir de ella?
+- Si se ingresa con el flag `-it` si se elimina
+
+9e. ¿Cómo elimino un contenedor?
+- Con el comando `docker rm` y el id del contenedor
+
+9f. ¿Para qué es necesario el flag `-i`, `-t`, `--rm`?
+- `-i`: Para entrar al modo interactivo
+- `-t`: Para la consola TTY
+- `--rm`: Para eliminar la imagen inactiva
+
+9g. ¿Cómo verifico que el archivo creado se encuentra en la imagen?
+- Buscando e imprimiendo el contenido en el dockerfile, o buscando e imprimiendo el contenido en el modo interactivo
+
+9h. ¿Cómo se comenta una linea de código en Dockerfile?
+-  Con `#`
