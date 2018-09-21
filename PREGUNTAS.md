@@ -77,7 +77,7 @@ anotaciones es solo un puntero con nombre a una confirmación.
 
 6. ¿Cuál es la diferencia entre docker y VirtualBox?
 - VirtualBox trabaja sobre el hadware e interactual con el Hypervisor, mientras que, Docker trabaja sobre el software y el 
-kernel
+kernel.
 
 7. ¿Es necesario depender de una imagen de docker base al crear una imagen nueva?
 - Si
